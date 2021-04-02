@@ -1,0 +1,1 @@
+<view><camera style="width:100%;height:100vh;" mode="scanCode" device-position="back" flash="off" data-event-opts="{{[['scancode',[['getCode',['$event']]]]]}}" bindscancode="__e"></camera></view>

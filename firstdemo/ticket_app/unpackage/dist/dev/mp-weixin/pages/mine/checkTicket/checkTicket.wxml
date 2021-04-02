@@ -1,0 +1,1 @@
+<view class="check_ticket"><view class="top_pic"><image src="../../../static/mine/scan_ticket.png"></image></view><view data-event-opts="{{[['tap',[['scanClick',['$event']]]]]}}" class="submit_button" bindtap="__e">点击扫码验票</view></view>

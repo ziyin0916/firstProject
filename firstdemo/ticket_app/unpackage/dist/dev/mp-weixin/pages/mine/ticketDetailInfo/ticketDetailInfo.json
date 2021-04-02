@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "演出票详情",
+  "usingComponents": {
+    "tkiqrcode": "/components/tki-qrcode/tki-qrcode"
+  }
+}

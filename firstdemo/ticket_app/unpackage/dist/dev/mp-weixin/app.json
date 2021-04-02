@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/mine/mine",
+    "pages/home/search/search",
+    "pages/home/ticketList/ticketList",
+    "pages/home/ticketDetail/ticketDetail",
+    "pages/home/orderConfirm/orderConfirm",
+    "pages/mine/authorization/authorization",
+    "pages/mine/orderList/orderList",
+    "pages/mine/orderDetail/orderDetail",
+    "pages/mine/ticketDetailInfo/ticketDetailInfo",
+    "pages/mine/applyRefund/applyRefund",
+    "pages/mine/applyDistribution/applyDistribution",
+    "pages/mine/myDistributerCode/myDistributerCode",
+    "pages/mine/myPerformance/myPerformance",
+    "pages/mine/checkTicket/checkTicket",
+    "pages/mine/checkTicket/scanTicket",
+    "pages/mine/checkTicket/checkTicketError",
+    "pages/home/webView/webView",
+    "pages/home/noNetworkPage"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "票务",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#333333",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "static/tabbar/tab_home_unselected.png",
+        "selectedIconPath": "static/tabbar/tab_home_selected.png",
+        "text": "演出"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "static/tabbar/tab_mine_unselected.png",
+        "selectedIconPath": "static/tabbar/tab_mine_selected.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "需要获取您当前位置进行导航"
+    }
+  },
+  "usingComponents": {}
+}

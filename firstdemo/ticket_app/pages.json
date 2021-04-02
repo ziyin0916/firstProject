@@ -1,0 +1,136 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "票务系统小程序"
+			}
+		}, {
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		}, {
+			"path": "pages/home/search/search",
+			"style": {
+				"navigationBarTitleText": "搜索"
+			}
+		}, {
+			"path": "pages/home/ticketList/ticketList"
+		}, {
+			"path": "pages/home/ticketDetail/ticketDetail",
+			"style": {
+				"navigationBarTitleText": "演出详情"
+			}
+		}, {
+			"path": "pages/home/orderConfirm/orderConfirm",
+			"style": {
+				"navigationBarTitleText": "确认订单"
+			}
+		}, {
+			"path": "pages/mine/authorization/authorization",
+			"style": {
+				"navigationBarTitleText": "微信授权"
+			}
+		}, {
+			"path": "pages/mine/orderList/orderList",
+			"style": {
+				"navigationBarTitleText": "我的订单"
+			}
+		}, {
+			"path": "pages/mine/orderDetail/orderDetail",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		}, {
+			"path": "pages/mine/ticketDetailInfo/ticketDetailInfo",
+			"style": {
+				"navigationBarTitleText": "演出票详情"
+			}
+		}, {
+			"path": "pages/mine/applyRefund/applyRefund",
+			"style": {
+				"navigationBarTitleText": "申请退款"
+			}
+		}, {
+			"path": "pages/mine/applyDistribution/applyDistribution",
+			"style": {
+				"navigationBarTitleText": "分销申请"
+			}
+		}, {
+			"path": "pages/mine/myDistributerCode/myDistributerCode",
+			"style": {
+				"navigationBarTitleText": "我的分销码"
+			}
+		}, {
+			"path": "pages/mine/myPerformance/myPerformance",
+			"style": {
+				"navigationBarTitleText": "我的业绩"
+			}
+		}, {
+			"path": "pages/mine/checkTicket/checkTicket",
+			"style": {
+				"navigationBarTitleText": "我是验票员"
+			}
+		}, {
+			"path": "pages/mine/checkTicket/scanTicket",
+			"style": {
+				"navigationBarTitleText": "扫码验票"
+			}
+		}, {
+			"path": "pages/mine/checkTicket/checkTicketError",
+			"style": {
+				"navigationBarTitleText": "我是验票员"
+			}
+		}, {
+			"path": "pages/home/webView/webView",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/home/noNetworkPage",
+			"style": {
+				"navigationStyle":"custom"
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#333333",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/home/home",
+				"iconPath": "static/tabbar/tab_home_unselected.png",
+				"selectedIconPath": "static/tabbar/tab_home_selected.png",
+				"text": "演出"
+			},
+			{
+				"pagePath": "pages/mine/mine",
+				"iconPath": "static/tabbar/tab_mine_unselected.png",
+				"selectedIconPath": "static/tabbar/tab_mine_selected.png",
+				"text": "我的"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "票务",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF",
+		"app-plus": {
+			"bounce": "none"
+		}
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}

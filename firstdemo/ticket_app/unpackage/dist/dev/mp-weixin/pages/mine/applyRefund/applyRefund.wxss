@@ -1,0 +1,347 @@
+page {
+  background-color: #F5F5F5;
+}
+.ticket_view {
+  background-color: white;
+  padding: 0 20rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.ticket_view .ticket_title {
+  width: 100%;
+  height: 80rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  font-size: 36rpx;
+  font-weight: bold;
+}
+.ticket_view .ticket_title .choose_all {
+  font-size: 26rpx;
+  font-weight: normal;
+  color: #999999;
+  padding: 0 20rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.ticket_view .ticket_item {
+  width: 100%;
+  min-height: 320rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  padding: 20rpx 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.ticket_view .ticket_item .choose_image {
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 10rpx;
+}
+.ticket_view .ticket_item .left_image {
+  width: 160rpx;
+  height: 220rpx;
+}
+.ticket_view .ticket_item .right_view {
+  width: calc(100% - 290rpx - 50rpx);
+  min-height: 220rpx;
+  margin-left: 30rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
+}
+.ticket_view .ticket_item .right_view .item_title {
+  font-size: 32rpx;
+  color: #333333;
+  font-weight: bold;
+}
+.ticket_view .ticket_item .right_view .item_content {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.ticket_view .ticket_item .right_view .item_content image {
+  width: 30rpx;
+  height: 30rpx;
+}
+.ticket_view .ticket_item .right_view .item_content view {
+  width: calc(100% - 45rpx);
+  font-size: 26rpx;
+  color: #333333;
+  margin-left: 15rpx;
+  margin-top: 10rpx;
+}
+.ticket_view .ticket_item .right_view .item_bottom {
+  width: 100%;
+  height: 50rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  margin-top: 10rpx;
+}
+.ticket_view .ticket_item .right_view .item_bottom .number_view {
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #FE2536;
+  line-height: 50rpx;
+}
+.ticket_view .ticket_item .right_view .item_bottom .number_view ._span {
+  font-size: 26rpx;
+  color: #333333;
+  font-weight: normal;
+  margin-left: 10rpx;
+}
+.ticket_view .ticket_item .right_view .item_bottom .price_view {
+  font-size: 28rpx;
+  color: #333333;
+  line-height: 50rpx;
+}
+.ticket_view .ticket_item .right_view .item_bottom .price_view ._span {
+  font-weight: 32rpx;
+  font-weight: bold;
+  color: #FE2536;
+}
+.ticket_view .ticket_item .right_image {
+  width: 100rpx;
+  height: 100rpx;
+}
+.bottom_view {
+  margin-top: 20rpx;
+  width: 100%;
+  padding: 0 20rpx 80rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: white;
+}
+.bottom_view .refund_reason_header {
+  width: 100%;
+  height: 80rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  font-size: 36rpx;
+  font-weight: bold;
+}
+.bottom_view .refund_reason_header .choose_reason_title {
+  font-size: 24rpx;
+  font-weight: normal;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  color: #999999;
+}
+.bottom_view .refund_reason_header .choose_reason_title image {
+  width: 30rpx;
+  height: 30rpx;
+  margin-left: 10rpx;
+}
+.bottom_view .refund_reson_desc {
+  width: 100%;
+  height: 200rpx;
+  background-color: #F4F4F4;
+  padding: 20rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 28rpx;
+}
+.bottom_view .refund_money {
+  width: 100%;
+  height: 80rpx;
+  padding-top: 20rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 32rpx;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.bottom_view .refund_remark {
+  font-size: 24rpx;
+  color: #999999;
+}
+.bottom_view .submit_button {
+  margin-top: 80rpx;
+  margin-left: 40rpx;
+  width: calc(100% - 80rpx);
+  height: 100rpx;
+  line-height: 100rpx;
+  font-size: 40rpx;
+  text-align: center;
+  -webkit-border-radius: 50rpx;
+          border-radius: 50rpx;
+  background-color: #F7C642;
+}
+.mask_view {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.mask_view .reason_back_view {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  min-height: 600rpx;
+  background-color: white;
+  -webkit-border-top-left-radius: 40rpx;
+          border-top-left-radius: 40rpx;
+  -webkit-border-top-right-radius: 40rpx;
+          border-top-right-radius: 40rpx;
+  padding: 20rpx 20rpx 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.mask_view .reason_back_view .reason_title {
+  font-size: 34rpx;
+  width: 100%;
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+}
+.mask_view .reason_back_view .reason_item {
+  width: 100%;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 28rpx;
+  color: #666666;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.mask_view .reason_back_view .reason_item image {
+  width: 40rpx;
+  height: 40rpx;
+}
+.mask_view .reason_back_view .reason_cancel {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100rpx;
+  line-height: 100rpx;
+  font-size: 30rpx;
+  font-weight: bold;
+  text-align: center;
+  border-top: 2rpx solid #DDDDDD;
+}
+.success_back_view {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 999;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 0 80rpx;
+  padding-bottom: 160rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.success_back_view .success_view {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-border-radius: 40rpx;
+          border-radius: 40rpx;
+  overflow: hidden;
+  background-color: white;
+  padding-top: 50rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.success_back_view .success_view image {
+  width: 220rpx;
+  height: 220rpx;
+}
+.success_back_view .success_view .title {
+  font-size: 36rpx;
+  font-weight: bold;
+  line-height: 100rpx;
+}
+.success_back_view .success_view .remark {
+  text-align: center;
+  font-size: 30rpx;
+  line-height: 50rpx;
+  color: #666666;
+  padding-bottom: 50rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.success_back_view .success_view .option_button {
+  width: 100%;
+  height: 100rpx;
+  line-height: 100rpx;
+  font-size: 36rpx;
+  border-top: #EEEEEE solid 2rpx;
+  text-align: center;
+}
+

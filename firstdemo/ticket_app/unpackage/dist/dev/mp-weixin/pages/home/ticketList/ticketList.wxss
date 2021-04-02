@@ -1,0 +1,91 @@
+.bottom_section_item {
+  width: 100%;
+  min-height: 320rpx;
+  padding: 15rpx 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.bottom_section_item image {
+  width: 200rpx;
+  height: 290rpx;
+}
+.bottom_section_item .right_view {
+  width: calc(100% - 230rpx);
+  min-height: 290rpx;
+  margin-left: 30rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
+}
+.bottom_section_item .right_view .item_title {
+  font-size: 32rpx;
+  color: #333333;
+  font-weight: bold;
+}
+.bottom_section_item .right_view .item_content {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.bottom_section_item .right_view .item_content image {
+  width: 30rpx;
+  height: 30rpx;
+}
+.bottom_section_item .right_view .item_content view {
+  width: calc(100% - 45rpx);
+  font-size: 26rpx;
+  color: #333333;
+  margin-left: 15rpx;
+  margin-top: 15rpx;
+}
+.bottom_section_item .right_view .item_bottom {
+  width: 100%;
+  height: 50rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  margin-top: 10rpx;
+}
+.bottom_section_item .right_view .item_bottom .price_view {
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #FE2536;
+  line-height: 50rpx;
+}
+.bottom_section_item .right_view .item_bottom .buy_view {
+  width: 120rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  -webkit-border-radius: 8rpx;
+          border-radius: 8rpx;
+  background-color: #F7C642;
+  color: #000000;
+  font-size: 26rpx;
+  text-align: center;
+}
+

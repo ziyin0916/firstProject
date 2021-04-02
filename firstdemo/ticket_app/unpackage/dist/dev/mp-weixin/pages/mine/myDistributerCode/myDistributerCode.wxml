@@ -1,0 +1,1 @@
+<view class="my_distribution_view"><view class="channel_title">{{"所属渠道："+channel}}</view><view class="qr_view"><tkiqrcode vue-id="620650f4-1" val="{{distributionCode}}" size="{{300}}" unit="upx" onval="{{true}}" loadMake="{{true}}" usingComponents="{{true}}" showLoading="{{false}}" bind:__l="__l"></tkiqrcode></view><view class="dis_code">{{"推荐ID："+distributionCode}}</view></view>

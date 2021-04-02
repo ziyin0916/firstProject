@@ -1,0 +1,48 @@
+.auth_view {
+  padding-top: 200rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.auth_view image {
+  width: 160rpx;
+  height: 160rpx;
+}
+.auth_view .content {
+  font-size: 32rpx;
+  margin-top: 60rpx;
+  font-weight: bold;
+}
+.auth_view .remark {
+  font-size: 26rpx;
+  margin-top: 30rpx;
+  color: #999999;
+}
+.auth_view .userinfo_button {
+  margin-top: 60rpx;
+  width: 80%;
+  height: 90rpx;
+  line-height: 90rpx;
+  -webkit-border-radius: 45rpx;
+          border-radius: 45rpx;
+  background-color: #F7C642;
+}
+.auth_view .login_button {
+  margin-top: 80rpx;
+  width: 80%;
+  height: 90rpx;
+  line-height: 90rpx;
+  -webkit-border-radius: 45rpx;
+          border-radius: 45rpx;
+  background-color: #F7C642;
+}
+

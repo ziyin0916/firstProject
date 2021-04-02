@@ -1,0 +1,1 @@
+<view class="check_error"><image src="/static/mine/ticket_check_error.png"></image><view class="mark">此演出票已被使用</view><view data-event-opts="{{[['tap',[['confirmClick',['$event']]]]]}}" class="confirm" bindtap="__e">确定</view></view>

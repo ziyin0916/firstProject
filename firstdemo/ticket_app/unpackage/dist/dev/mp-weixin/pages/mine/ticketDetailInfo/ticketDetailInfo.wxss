@@ -1,0 +1,179 @@
+page {
+  background-color: #F5F5F5;
+  width: 100%;
+  height: 100%;
+}
+.ticket_detail_view {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.ticket_view {
+  background-color: white;
+  padding: 0 20rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.ticket_view .ticket_item {
+  width: 100%;
+  min-height: 320rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  padding: 20rpx 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.ticket_view .ticket_item .left_image {
+  width: 200rpx;
+  height: 290rpx;
+}
+.ticket_view .ticket_item .right_view {
+  width: calc(100% - 330rpx);
+  min-height: 290rpx;
+  margin-left: 30rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
+}
+.ticket_view .ticket_item .right_view .item_title {
+  font-size: 32rpx;
+  color: #333333;
+  font-weight: bold;
+}
+.ticket_view .ticket_item .right_view .item_content {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.ticket_view .ticket_item .right_view .item_content image {
+  width: 30rpx;
+  height: 30rpx;
+}
+.ticket_view .ticket_item .right_view .item_content view {
+  width: calc(100% - 45rpx);
+  font-size: 26rpx;
+  color: #333333;
+  margin-left: 15rpx;
+  margin-top: 10rpx;
+}
+.ticket_view .ticket_item .right_view .item_bottom {
+  width: 100%;
+  height: 50rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  margin-top: 10rpx;
+}
+.ticket_view .ticket_item .right_view .item_bottom .number_view {
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #FE2536;
+  line-height: 50rpx;
+}
+.ticket_view .ticket_item .right_view .item_bottom .number_view ._span {
+  font-size: 26rpx;
+  color: #333333;
+  font-weight: normal;
+  margin-left: 10rpx;
+}
+.ticket_view .ticket_item .right_view .item_bottom .price_view {
+  font-size: 28rpx;
+  color: #333333;
+  line-height: 50rpx;
+}
+.ticket_view .ticket_item .right_view .item_bottom .price_view ._span {
+  font-weight: 32rpx;
+  font-weight: bold;
+  color: #FE2536;
+}
+.ticket_view .ticket_item .right_image {
+  width: 100rpx;
+  height: 100rpx;
+}
+.qr_back_view {
+  width: 100%;
+  background-color: white;
+  margin-top: 20rpx;
+  text-align: center;
+  padding: 80rpx 30rpx 80rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 32rpx;
+}
+.qr_back_view .qr_view {
+  width: 100%;
+  margin-top: 60rpx;
+}
+.share_view {
+  color: #333333;
+  background-color: white;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  width: 100%;
+  height: 100rpx;
+  margin-top: 2rpx;
+}
+.share_view image {
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 20rpx;
+}
+.share_view .share_btn {
+  width: 100%;
+  height: 100rpx;
+  line-height: 100rpx;
+  font-size: 32rpx;
+  text-align: center;
+  border: none;
+  background-color: white;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+
+
+button {
+	-webkit-border-radius: 0;
+	        border-radius: 0;
+	border: none;
+}
+button::after {
+	border: none;
+}
+

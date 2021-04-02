@@ -1,0 +1,264 @@
+page {
+  height: 100%;
+  background-color: #F5F5F5;
+}
+.date_back_view {
+  width: 100%;
+  height: 90rpx;
+  background-color: white;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  font-size: 30rpx;
+  color: #333333;
+}
+.date_back_view .date_view {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  padding: 10rpx 20rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 2rpx #DDDDDD solid;
+  -webkit-border-radius: 10rpx;
+          border-radius: 10rpx;
+}
+.date_back_view .date_view image {
+  width: 40rpx;
+  height: 40rpx;
+  margin-left: 20rpx;
+}
+.total_view {
+  width: 100%;
+  min-height: 90rpx;
+  background-color: white;
+  padding: 0 20rpx 20rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  font-size: 36rpx;
+  color: #333333;
+  font-weight: bold;
+}
+.total_view .total_money :last-child {
+  font-size: 28rpx;
+  color: #666666;
+  font-weight: normal;
+}
+.total_view .total_count {
+  text-align: right;
+}
+.total_view .total_count :last-child {
+  font-size: 28rpx;
+  color: #666666;
+  font-weight: normal;
+}
+.charts_back_view {
+  padding: 0 24rpx 24rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: white;
+}
+.charts_back_view .charts {
+  width: 100%;
+  height: 400rpx;
+  -webkit-border-radius: 8rpx;
+          border-radius: 8rpx;
+  background: -webkit-gradient(linear, left top, right top, from(#3D9FE6), to(#4880DB));
+  background: -webkit-linear-gradient(left, #3D9FE6 0%, #4880DB 100%);
+  background: linear-gradient(90deg, #3D9FE6 0%, #4880DB 100%);
+}
+.mouth_back_view {
+  width: 100%;
+  min-height: 120rpx;
+  background-color: white;
+  margin-top: 20rpx;
+  padding: 30rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 36rpx;
+  color: #333333;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.mouth_back_view .performance_view {
+  width: 50%;
+  height: 100%;
+  text-align: center;
+}
+.mouth_back_view .performance_view :first-child {
+  font-size: 28rpx;
+  color: #666666;
+  font-weight: normal;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.mouth_back_view .performance_view :first-child image {
+  width: 30rpx;
+  height: 30rpx;
+  margin-right: 10rpx;
+}
+.mouth_back_view .commission_view {
+  width: 50%;
+  height: 100%;
+  text-align: center;
+}
+.mouth_back_view .commission_view :first-child {
+  font-size: 28rpx;
+  color: #666666;
+  font-weight: normal;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.mouth_back_view .commission_view :first-child image {
+  width: 30rpx;
+  height: 30rpx;
+  margin-right: 10rpx;
+}
+.detail_view {
+  width: 100%;
+  background-color: white;
+  margin-top: 20rpx;
+  padding-bottom: 5rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.detail_view .detail_title {
+  width: 100%;
+  height: 90rpx;
+  padding-left: 20rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  line-height: 90rpx;
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #333333;
+  border-bottom: #EEEEEE 2rpx solid;
+}
+.detail_view .detail_item {
+  width: 100%;
+  min-height: 120rpx;
+  padding: 20rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-bottom: #EEEEEE 2rpx solid;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.detail_view .detail_item .left_image {
+  width: 80rpx;
+  height: 80rpx;
+  -webkit-border-radius: 40rpx;
+          border-radius: 40rpx;
+  margin-right: 20rpx;
+}
+.detail_view .detail_item .nickname {
+  font-size: 28rpx;
+  height: 100%;
+  width: calc(100% - 100rpx - 200rpx);
+}
+.detail_view .detail_item .right {
+  font-size: 26rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  width: 200rpx;
+  height: 100%;
+}
+.detail_view .detail_item .right .top {
+  width: 100%;
+  color: #4581F5;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+          justify-content: flex-end;
+}
+.detail_view .detail_item .right .top image {
+  width: 30rpx;
+  height: 30rpx;
+  margin-right: 10rpx;
+}
+.detail_view .detail_item .right .bottom {
+  width: 100%;
+  color: #FF433D;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+          justify-content: flex-end;
+  margin-top: 10rpx;
+}
+.detail_view .detail_item .right .bottom image {
+  width: 30rpx;
+  height: 30rpx;
+  margin-right: 10rpx;
+}
+.detail_view .detail_no_data {
+  width: 100%;
+  height: 200rpx;
+  background-color: white;
+  line-height: 120rpx;
+  font-size: 28rpx;
+  color: #999999;
+  text-align: center;
+}
+

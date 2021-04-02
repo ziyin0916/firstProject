@@ -1,0 +1,214 @@
+page {
+  background-color: #F4F4F4;
+}
+.mine_view {
+  width: 100%;
+  height: 100%;
+}
+.mine_view .user_view {
+  width: 100%;
+  height: 180rpx;
+  background-color: #F7C642;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  padding: 30rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.mine_view .user_view image {
+  width: 120rpx;
+  height: 120rpx;
+  -webkit-border-radius: 60rpx;
+          border-radius: 60rpx;
+}
+.mine_view .user_view .user_name {
+  margin-left: 30rpx;
+  font-size: 30rpx;
+  font-weight: bold;
+  line-height: 50rpx;
+}
+.mine_view .user_view .user_name .phone {
+  font-size: 24rpx;
+  font-weight: normal;
+}
+.mine_view .mine_content {
+  padding: 0 20rpx 20rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.mine_view .mine_content .mine_section {
+  width: 100%;
+  padding: 0 20rpx;
+  margin-top: 20rpx;
+  -webkit-border-radius: 10rpx;
+          border-radius: 10rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: white;
+}
+.mine_view .mine_content .mine_section .title {
+  width: 100%;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 32rpx;
+  font-weight: bold;
+  border-bottom: 2rpx #F4F4F4 solid;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.mine_view .mine_content .mine_section .title .more {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  font-size: 28rpx;
+  line-height: 30rpx;
+  color: #999999;
+  font-weight: normal;
+}
+.mine_view .mine_content .mine_section .title .more image {
+  width: 30rpx;
+  height: 30rpx;
+}
+.mine_view .mine_content .mine_section .ticket .ticket_item {
+  width: 100%;
+  min-height: 320rpx;
+  padding: 15rpx 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.mine_view .mine_content .mine_section .ticket .ticket_item image {
+  width: 200rpx;
+  height: 290rpx;
+}
+.mine_view .mine_content .mine_section .ticket .ticket_item .right_view {
+  width: calc(100% - 230rpx);
+  min-height: 290rpx;
+  margin-left: 30rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
+}
+.mine_view .mine_content .mine_section .ticket .ticket_item .right_view .item_title {
+  font-size: 32rpx;
+  color: #333333;
+  font-weight: bold;
+}
+.mine_view .mine_content .mine_section .ticket .ticket_item .right_view .item_content {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.mine_view .mine_content .mine_section .ticket .ticket_item .right_view .item_content image {
+  width: 30rpx;
+  height: 30rpx;
+}
+.mine_view .mine_content .mine_section .ticket .ticket_item .right_view .item_content view {
+  width: calc(100% - 45rpx);
+  font-size: 26rpx;
+  color: #333333;
+  margin-left: 15rpx;
+  margin-top: 10rpx;
+}
+.mine_view .mine_content .mine_section .ticket .ticket_item .right_view .item_bottom {
+  width: 100%;
+  height: 50rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  margin-top: 10rpx;
+}
+.mine_view .mine_content .mine_section .ticket .ticket_item .right_view .item_bottom .price_view {
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #FE2536;
+  line-height: 50rpx;
+}
+.mine_view .mine_content .mine_section .ticket .ticket_item .right_view .item_bottom .buy_view {
+  width: 120rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  -webkit-border-radius: 8rpx;
+          border-radius: 8rpx;
+  background-color: #F7C642;
+  color: #000000;
+  font-size: 26rpx;
+  text-align: center;
+}
+.mine_view .mine_content .mine_section .mine_order {
+  width: 100%;
+  height: 160rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  padding: 10rpx 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.mine_view .mine_content .mine_section .mine_order .order_item {
+  width: 160rpx;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+  -webkit-justify-content: space-evenly;
+          justify-content: space-evenly;
+}
+.mine_view .mine_content .mine_section .mine_order .order_item image {
+  width: 40rpx;
+  height: 40rpx;
+}
+.mine_view .mine_content .mine_section .mine_order .order_item view {
+  font-size: 28rpx;
+  color: #333333;
+}
+
